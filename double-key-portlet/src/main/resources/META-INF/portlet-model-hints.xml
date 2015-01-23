@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.sohlman.liferay.model.Test">
+		<field name="testOneId" type="String" />
+		<field name="testTwoId" type="String" />
+		<field name="payload" type="String" />
+		<field name="modified" type="String" localized="true" />
+	</model>
+</model-hints>

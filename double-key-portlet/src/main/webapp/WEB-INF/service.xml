@@ -1,0 +1,11 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="com.sohlman.liferay">
+	<namespace>DK</namespace>
+    <entity name="Test" local-service="true" remote-service="true">
+        <column name="testOneId" type="String" primary="true" />
+        <column name="testTwoId" type="String" primary="true" />
+        <column name="payload" type="String" />
+        <column name="modified" type="String" localized="true"/>
+    </entity>	
+</service-builder>
